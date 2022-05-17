@@ -1,5 +1,3 @@
-package com.company;
-
 public class Main extends Thread {
     public void run() {
         Count.getInstance();

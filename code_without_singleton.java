@@ -1,4 +1,4 @@
-package com.company;
+
 
 public class Main {
 
@@ -20,24 +20,10 @@ public class Main {
 
 class Count {
 
-//    private static Count instance = null;
-
     public int counter = 0;
 
-    // This private constructor is to prevent this object get instantiated more than once.
-//    private Count() {
-//    }
-    Count(){}
-//    public static Count getInstance() {
-//        if (instance == null) {
-//            instance = new Count();
-//        }
-//        return instance;
-//    }
-
+  public  Count(){}
     public void increment() {
         this.counter++;
     }
-
-
 }

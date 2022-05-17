@@ -26,7 +26,7 @@ class Count {
     private Count() {
     }
 
-    public static Count getInstance() {
+    public static synchronized Count getInstance() {
 
                 if (instance == null) {
 
